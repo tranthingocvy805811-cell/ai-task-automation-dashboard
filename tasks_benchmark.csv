@@ -1,0 +1,13 @@
+task_id,role_category,task_name,complexity,human_hours_per_week,ai_feasibility_score,automation_category,suggested_agent_architecture,prompt_template_key
+T01,Software Engineering,API Integration & Endpoint Testing,Medium,6.5,88,High Automation,ReAct Agent + OpenAPI Tool,code_gen_test
+T02,Software Engineering,Legacy Code Refactoring & Linting,Medium,5.0,78,Moderate Automation,AST Parser + LLM Refactor,refactor_lint
+T03,Software Engineering,System Architecture & Distributed Consensus,High,8.0,32,Human-in-the-Loop,RAG Architect Assistant,arch_rag
+T04,Data Science,Exploratory Data Analysis (EDA) & Summary Stats,Low,6.0,92,High Automation,Code Interpreter Agent,auto_eda
+T05,Data Science,Feature Engineering & Correlation Screening,Medium,7.0,84,High Automation,Tabular Feature Pipeline Agent,feat_eng
+T06,Data Science,Causal Inference & Business Decision Framing,High,9.0,36,Human-in-the-Loop,Decision Tree CoT Analyzer,causal_cot
+T07,Technical Content & Learning,Curriculum Outline & Syllabus Drafting,Low,5.5,90,High Automation,Few-shot Syllabus Generator,curriculum_draft
+T08,Technical Content & Learning,Slide Deck Scripting & Concept Breakdown,Medium,7.5,86,High Automation,Analogy-driven Explanation Agent,concept_explainer
+T09,Technical Content & Learning,Technical Fact-Checking & Code Verification,Medium,6.0,74,Moderate Automation,Self-Reflective Critic Agent,critic_factcheck
+T10,Business Operations,Customer Inquiry Categorization & Routing,Low,8.0,95,Full Automation,Zero-Shot Intent Classifier,intent_routing
+T11,Business Operations,Standard Operating Procedure (SOP) Drafting,Medium,6.0,82,High Automation,Process Documentation Agent,sop_generator
+T12,Business Operations,Cross-Department Conflict Resolution & Negotiation,High,7.0,18,Human Dominant,Communication Coach Persona,negotiation_coach
