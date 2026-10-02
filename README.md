@@ -22,11 +22,12 @@ Built to simplify complex AI and automation concepts into structured, presentati
 
 ## 🏗️ Architecture & Methodology
 
-```
-┌─────────────────────────┐     ┌────────────────────────┐     ┌────────────────────────┐
-│   Task Benchmark Data   │ ──► │  Streamlit Analytics   │ ──► │  Fact-Checking Sandbox │
-│ (CSV / Scoring Matrix)  │     │   Engine & Visuals     │     │  (Instructional Audit) │
-└─────────────────────────┘     └────────────────────────┘     └────────────────────────┘
+```mermaid
+flowchart LR
+    A["Raw Benchmark Data<br/>(CSV / Scoring Matrix)"] --> B["Streamlit Analytics Core<br/>Engine & Data Validation"]
+    B --> C["Interactive Plotly<br/>Dashboards & Filters"]
+    B --> D["Fact-Checking Sandbox<br/>& Prompt Engine"]
+    C & D --> E["Cross-Functional Decision Makers<br/>& Stakeholder Insights"]
 ```
 
 1. **Scoring Logic**: AI Feasibility scores are derived from task structuredness, context window requirements, and hallucination tolerance.
@@ -44,7 +45,7 @@ Built to simplify complex AI and automation concepts into structured, presentati
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/tranthingocvy805811-cell/ai-task-automation-dashboard.git
+   git clone [https://github.com/tranthingocvy805811-cell/ai-task-automation-dashboard.git](https://github.com/tranthingocvy805811-cell/ai-task-automation-dashboard.git)
    cd ai-task-automation-dashboard
    ```
 
